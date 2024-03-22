@@ -1,7 +1,7 @@
 # ITIPedia-Olshop
 
 > [!IMPORTANT]
-## Server Requirements:
+> ## Server Requirements:
 - [x] Minimum PHP version 7.4 or greater.
 - [x] OpenSSL PHP Extension
 - [x] PDO PHP Extension
@@ -15,7 +15,7 @@
 - [x] BCMath PHP Extension
 
 > [!NOTE]
-## PHP configuration limits:
+> ## PHP configuration limits:
 | Setting              | Value    |
 |----------------------|----------|
 | max_execution_time   | 300      |
