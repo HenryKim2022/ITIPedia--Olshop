@@ -1,5 +1,6 @@
 # ITIPedia-Olshop
 
+> [!IMPORTANT]
 ## Server Requirements:
 - [x] Minimum PHP version 7.4 or greater.
 - [x] OpenSSL PHP Extension
@@ -13,6 +14,7 @@
 - [x] FileInfo PHP Extension
 - [x] BCMath PHP Extension
 
+> [!NOTE]
 ## PHP configuration limits:
 | Setting              | Value    |
 |----------------------|----------|
