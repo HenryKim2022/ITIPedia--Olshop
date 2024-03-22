@@ -14,8 +14,10 @@
 > - [x] FileInfo PHP Extension
 > - [x] BCMath PHP Extension
 
+
 > ## PHP configuration limits:
 > [!NOTE]
+
 | Setting              | Value    |
 |----------------------|----------|
 | max_execution_time   | 300      |
