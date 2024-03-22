@@ -1,0 +1,28 @@
+.tt-payment-gateway {
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.tt-payment-gateway .tt-payment-setting {
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    top: 50%;
+    left: auto;
+    right: 5%;
+    -webkit-transform: translate(-18%, -50%);
+    transform: translate(-18%, -50%);
+    opacity: 0;
+}
+.tt-payment-gateway .tt-payment-setting {
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    top: 50%;
+    left: auto;
+    right: 5%;
+    -webkit-transform: translate(-18%, -50%);
+    transform: translate(-18%, -50%);
+    opacity: 0;
+}
+.tt-payment-gateway:hover .tt-payment-setting {
+    opacity: 1;
+    right: 0;
+}
