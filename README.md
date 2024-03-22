@@ -1,9 +1,9 @@
 # ITIPedia-Olshop
 
 > [!IMPORTANT]
-1. INSTALLATION
-   - First, navigate to http://localhost/
-     - Follow the sys requirements 😅
+> 1. INSTALLATION
+>    - First, navigate to http://localhost/
+>      - Follow the sys requirements 😅
 
 > [!NOTE]
 > ## Server Requirements:
