@@ -23,5 +23,5 @@
 > | upload_max_filesize  | 1024M    |
 > | max_input_vars       | 2000+    |
 
-> [!NOTE]
+> [!TIP]
 U can use laragon for better environtments
