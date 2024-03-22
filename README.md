@@ -14,14 +14,14 @@
 > - [x] FileInfo PHP Extension
 > - [x] BCMath PHP Extension
 > ## PHP configuration limits:
-| Setting              | Value    |
-|----------------------|----------|
-| max_execution_time   | 300      |
-| max_input_time       | 300      |
-| memory_limit         | 1024M    |
-| post_max_size        | 1024M    |
-| upload_max_filesize  | 1024M    |
-| max_input_vars       | 2000+    |
+> | Setting              | Value    |
+> |----------------------|----------|
+> | max_execution_time   | 300      |
+> | max_input_time       | 300      |
+> | memory_limit         | 1024M    |
+> | post_max_size        | 1024M    |
+> | upload_max_filesize  | 1024M    |
+> | max_input_vars       | 2000+    |
 
 > [!NOTE]
 U can use laragon for better environtments
