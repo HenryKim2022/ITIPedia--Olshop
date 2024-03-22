@@ -13,9 +13,6 @@
 > - [x] ZIP PHP Extension
 > - [x] FileInfo PHP Extension
 > - [x] BCMath PHP Extension
-
-
-> [!NOTE]
 > ## PHP configuration limits:
 | Setting              | Value    |
 |----------------------|----------|
@@ -25,3 +22,6 @@
 | post_max_size        | 1024M    |
 | upload_max_filesize  | 1024M    |
 | max_input_vars       | 2000+    |
+
+> [!NOTE]
+U can use laragon for better environtments
