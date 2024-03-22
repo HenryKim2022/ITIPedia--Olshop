@@ -24,4 +24,4 @@
 > | max_input_vars       | 2000+    |
 
 > [!TIP]
-U can use laragon for better environtments
+U can use laragon for better environtments :upside_down_face:
