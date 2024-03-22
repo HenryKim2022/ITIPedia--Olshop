@@ -1,6 +1,11 @@
 # ITIPedia-Olshop
 
 > [!IMPORTANT]
+1. INSTALLATION
+   - First, navigate to http://localhost/
+     - Follow the sys requirements 😅
+
+> [!NOTE]
 > ## Server Requirements:
 > - [x] Minimum PHP version 7.4 or greater.
 > - [x] OpenSSL PHP Extension
