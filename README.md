@@ -1,21 +1,21 @@
 # ITIPedia-Olshop
 
-> [!IMPORTANT]
 > ## Server Requirements:
-- [x] Minimum PHP version 7.4 or greater.
-- [x] OpenSSL PHP Extension
-- [x] PDO PHP Extension
-- [x] Mbstring PHP Extension
-- [x] Tokenizer PHP Extension
-- [x] XML PHP Extension
-- [x] Ctype PHP Extension
-- [x] JSON PHP Extension
-- [x] ZIP PHP Extension
-- [x] FileInfo PHP Extension
-- [x] BCMath PHP Extension
+> [!IMPORTANT]
+> - [x] Minimum PHP version 7.4 or greater.
+> - [x] OpenSSL PHP Extension
+> - [x] PDO PHP Extension
+> - [x] Mbstring PHP Extension
+> - [x] Tokenizer PHP Extension
+> - [x] XML PHP Extension
+> - [x] Ctype PHP Extension
+> - [x] JSON PHP Extension
+> - [x] ZIP PHP Extension
+> - [x] FileInfo PHP Extension
+> - [x] BCMath PHP Extension
 
-> [!NOTE]
 > ## PHP configuration limits:
+> [!NOTE]
 | Setting              | Value    |
 |----------------------|----------|
 | max_execution_time   | 300      |
