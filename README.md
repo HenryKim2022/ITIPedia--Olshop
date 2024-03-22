@@ -3,6 +3,7 @@
 > ## Server Requirements:
 > [!IMPORTANT]
 > ###
+
 > - [x] Minimum PHP version 7.4 or greater.
 > - [x] OpenSSL PHP Extension
 > - [x] PDO PHP Extension
@@ -19,6 +20,7 @@
 > ## PHP configuration limits:
 > [!NOTE]
 > ###
+
 | Setting              | Value    |
 |----------------------|----------|
 | max_execution_time   | 300      |
