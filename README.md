@@ -5,6 +5,7 @@
 >    - First, navigate to http://localhost/
 >      - Follow the sys requirements 😅
 
+
 > [!NOTE]
 > ## Server Requirements:
 > - [x] Minimum PHP version 7.4 or greater.
@@ -27,6 +28,7 @@
 > | post_max_size        | 1024M        | 2G                        |
 > | upload_max_filesize  | 1024M        | 2G                        |
 > | max_input_vars       | 2000+        | 🤠 not nedded in php 8.1  |
+
 
 > [!TIP]
 U can use laragon for better environtments :upside_down_face:
