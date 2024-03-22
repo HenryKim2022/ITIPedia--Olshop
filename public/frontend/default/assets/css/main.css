@@ -37807,7 +37807,7 @@ body {
   border-top-left-radius: 6px;
   z-index: 1;
 }
-.vertical-product-card .offer-badge::after {
+/* .vertical-product-card .offer-badge::after {
   content: "";
   position: absolute;
   right: -1px;
@@ -37817,6 +37817,20 @@ body {
   background-color: #fff;
   -webkit-clip-path: polygon(100% 0, 0 50%, 100% 100%);
   clip-path: polygon(100% 0, 0 50%, 100% 100%);
+} */
+.vertical-product-card .offer-badge::after {
+  content: "";
+  position: absolute;
+  /* right: -1px; */
+  right: -7px;
+  top: 0;
+  width: 8px;
+  height: 25px;
+  background-image: url(../img/badge/offer-badge-after-1-shape.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* -webkit-clip-path: polygon(100% 0, 0 50%, 100% 100%);
+  clip-path: polygon(100% 0, 0 50%, 100% 100%); */
 }
 .vertical-product-card .product-btns {
   right: 16px;

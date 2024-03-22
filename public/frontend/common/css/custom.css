@@ -352,3 +352,7 @@ html:not([dir="rtl"]) .toast-close-button {
   a:not(.dropdown-menu a) {
   color: #fff !important;
 }
+
+.offer-badge::after {
+  background-color: transparent !important;
+}
