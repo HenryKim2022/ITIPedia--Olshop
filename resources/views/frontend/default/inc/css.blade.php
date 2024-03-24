@@ -21,4 +21,12 @@
         .on-sale-banner {
             background-image: url({{ uploadedAsset(getSetting('halal_on_sale_banner')) }});
         }
+
+        .category-cust-ellipsis {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
 </style>

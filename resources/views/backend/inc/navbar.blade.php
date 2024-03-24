@@ -197,8 +197,11 @@
             <a href="index.html" class="tt-brand-link">
                 <img src="{{ uploadedAsset(getSetting('favicon')) }}" class="tt-brand-favicon ms-1"
                     alt="favicon" />
-                <img src="{{ uploadedAsset(getSetting('admin_panel_logo')) }}" class="tt-brand-logo ms-2"
-                    alt="logo" />
+
+                @if ((getSetting('admin_panel_logo')))
+                    <img src="{{ uploadedAsset(getSetting('admin_panel_logo')) }}" class="tt-brand-logo ms-2"
+                        alt="logo" />
+                @endif
             </a>
         </div>
         <button class="btn-close" type="button" data-bs-dismiss="offcanvas"></button>

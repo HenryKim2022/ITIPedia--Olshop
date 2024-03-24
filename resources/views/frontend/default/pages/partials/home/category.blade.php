@@ -25,15 +25,19 @@
                                     alt="" class="img-fluid">
                             </div>
 
-                            <a href="{{ route('products.index') }}?&category_id={{ $category->id }}"
-                                class="text-dark fs-sm fw-bold d-block mt-3">{{ $category->collectLocalization('name') }}</a>
-                            {{-- <span
+                            <div class="category-cust-ellipsis">
+                                <a href="{{ route('products.index') }}?&category_id={{ $category->id }}"
+                                    class="text-dark fs-sm fs-8 lh-9 text-break d-block mt-3">{{ $category->collectLocalization('name') }}</a>
+
+                            </div>
+                            
+                                {{-- <span
                                 class="total-count position-relative ps-3 fs-sm fw-medium doted-primary">{{ $productsCount }}
                                 {{ localize('Items') }}</span> --}}
 
-                            <span class="position-absolute text-white fw-bold fs-xxs text-bg-success start-0 top-0 px-6">
+                            {{-- <span class="position-absolute text-white fw-bold fs-xxs text-bg-success start-0 top-0 px-6">
                                 <span class="text-uppercase">{{ $productsCount }}</span>
-                            </span>
+                            </span> --}}
 
                             <a href="{{ route('products.index') }}?&category_id={{ $category->id }}"
                                 class="explore-btn position-absolute"><i class="fa-solid fa-arrow-up"></i></a>

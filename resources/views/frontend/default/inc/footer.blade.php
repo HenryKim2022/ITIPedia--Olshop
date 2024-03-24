@@ -1,3 +1,5 @@
+<script type="text/javascript" src="{{ staticAsset('frontend/common/js/custom.js') }}"></script>        
+
 <div class="footer-curve position-relative overflow-hidden">
     <span class="position-absolute section-curve-wrapper top-0 h-100"
         data-background="{{ staticAsset('frontend/default/assets/img/shapes/section-curve.png') }}"></span>
@@ -90,19 +92,24 @@
     <div class="footer-copyright pt-120 pb-3">
         <span class="gradient-spacer d-block mb-3"></span>
         <div class="container">
-            <div class="row align-items-center g-3">
+
+            @php
+                $acceptedPaymentBanner = getSetting('accepted_payment_banner');
+            @endphp
+
+            {{-- <div class="row align-items-center g-3"> --}}
+            <div class="row align-items-center {{ $acceptedPaymentBanner == '' ? 'g-0' : 'g-3' }}">
                 <div class="col-lg-4">
-                    <div class="copyright-text text-light">
+                    <div class="copyright-text text-light align-content-center" id="cpr_text">
                         {{-- {!! getSetting('copyright_text') !!} --}}
                         Copyright {!! getSetting('copyright_text') !!} {{ env('APP_ALIAS') }}
                     </div>
                 </div>
 
-                @php
-                    $acceptedPaymentBanner = getSetting('accepted_payment_banner');
-                @endphp
 
-                <div class="col-lg-4 d-none d-lg-block">
+                
+                {{-- <div class="col-lg-4 d-none d-lg-block"> --}}             
+                <div class="col-lg-4 d-flex justify-content-center justify-content-lg-start" id="footer_middle_logo">
                     @if ($acceptedPaymentBanner != '')
                     <!-- Handle the case when accepted_payment_banner is exist -->
                     <div class="logo-wrapper text-center">
@@ -123,7 +130,8 @@
 
                 </div>
            
-                <div class="col-lg-4">
+                {{-- <div class="col-lg-4"> --}}
+                <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end">
                     @if ($acceptedPaymentBanner != '')
                         <!-- Handle the case when accepted_payment_banner is exists -->
                         <div class="footer-payments-info d-flex align-items-center justify-content-lg-end gap-2">
